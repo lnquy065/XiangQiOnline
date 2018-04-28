@@ -1,0 +1,97 @@
+  
+#profile {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 50px;
+    background-image: url("../images/profile/profile.png");
+}
+
+#profile #profile_ava {
+    position: absolute;
+    border-radius: 3px;
+    top: 5px;
+    left: 5px;
+}
+
+#profile #profile_name {
+    position: absolute;
+    top: 4px;
+    left: 50px;
+    font-family: cursive;
+    font-size: 20px;
+    color: greenyellow;
+
+}
+
+#profile_levelBar {
+    background-color: red;
+    position: absolute;
+    top: 36px;
+    left: 48px;
+    width: 110px;
+    height: 3px;
+}
+
+#profile_level {
+    position: absolute;
+    top: 7px;
+    left: 153px;
+    font-family: cursive;
+    color: yellow;
+}
+
+#profile_btnDown, #profile_btnUp {
+    position: absolute;
+    top: 35px;
+    left: 2px;
+}
+
+#profile_extend {
+    position: fixed;
+    top: -500px;
+    left: 0px;
+    width: 180px;
+    height: 50px;
+}
+
+#profile_extend div {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    width: 180px;height: 30px;
+    text-justify: auto;
+}
+
+#profile_extend img {
+    padding-left: 3px;
+}
+
+.profile_fText {
+    display: inline-block;
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    font-family: GioMay;
+    padding-top: 2px;
+
+}
+
+.profile_par {
+    float: right;
+    display: inline-block;
+    padding-right: 10px;
+    font-family: cursive;
+    color: white;
+    padding-top: 2px;
+}
+
+.NavButton {
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+}
+
+
+

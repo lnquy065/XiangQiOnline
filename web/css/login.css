@@ -1,0 +1,121 @@
+body{
+    padding:0px;
+    margin:0px;
+
+        width: 100vw;
+                height: 100vh;
+
+    background-image: url("../images/login/bg2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.inner {
+    position: absolute;
+}
+.inner-container{
+    width:400px;
+    height:370px;
+    position:absolute;
+    top:calc(50vh - 200px);
+    left:calc(50vw - 200px);
+    overflow:hidden;
+    border-radius: 10px;
+}
+
+.box{
+    position:absolute;
+    height:100%;
+    width:100%;
+    font-family:Helvetica;
+    color:#fff;
+    background:rgba(0,0,0,0.13);
+    padding:30px 0px;
+}
+.box h1{
+    text-align:center;
+    margin:30px 0;
+    font-size:30px;
+}
+.box input{
+    display:inline;
+    width:300px;
+    margin:20px auto;
+    padding:10px 15px;
+    background:rgba(0,0,0,0.2);
+    color:#fff;
+    border:0;
+}
+.box input:focus,.box input:active,.box button:focus,.box button:active{
+    outline:none;
+}
+.box button{
+    background:#7b6511;
+    border:0;
+    color:#fff;
+    padding:10px;
+    font-size:20px;
+    width:150px;
+    margin:20px auto;
+    display:block;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.box button:hover {
+    background: #999900;
+}
+
+
+.box button:active{
+    background:#27ae60;
+}
+.box p{
+    font-size:14px;
+    text-align:center;
+}
+.box p span{
+    cursor:pointer;
+    color:#666;
+}
+
+
+#su{
+    display: none;
+}
+
+#user, #username, #pass, #password,#repass{
+    display: inline;
+    margin-left: 60px;
+    border-radius: 5px;
+    width: 250px;
+        font-size: 19px;
+    
+}
+
+#username::-webkit-input-placeholder {
+    color: black;
+    opacity: 0.7;
+}
+
+#user::-webkit-input-placeholder {
+    color: black;
+    opacity: 0.7;
+}
+#pass::-webkit-input-placeholder {
+    color: black;
+    opacity: 0.7;
+}
+#password::-webkit-input-placeholder {
+    color: black;
+    opacity: 0.7;
+}
+#repass::-webkit-input-placeholder {
+    color: black;
+    opacity: 0.7;
+}
+
+
+#signupbtn, #back{
+    display: inline;
+    margin-left: 35px;
+}

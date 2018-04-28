@@ -1,0 +1,297 @@
+  body {
+padding:0px;
+    margin:0px;
+
+        width: 100vw;
+                height: 100vh;
+
+    background-image: url("../images/background/1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .emo {
+      border-radius: 10px;
+      background: #cccccc;
+  }
+  .emo:hover {
+      background: #75f44e;
+  }
+  
+  #chatBoxEmojDiv {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      background: white;
+      border-radius: 10px 10px;
+      height: 150px;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  
+  #chatBoxEmoj {
+      background: #3cb0fd;
+    display: inline;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  #chatBoxEmojDiv::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#chatBoxEmojDiv::-webkit-scrollbar
+{
+    width: 10px;
+    /*background-color: #F5F5F5;*/
+}
+
+#chatBoxEmojDiv::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #3cb0fd;
+}
+
+  #chatBoxEmoj:hover {
+      background: blue;
+  }
+
+#chatBox {
+    position: absolute;
+    top: 343px;
+    left: 553px;
+    width: 228px;
+    height: 200px;
+}
+#chatBoxSendBox {
+    /*                position: absolute;
+                    bottom: 0px;
+                    left: 0px;
+                    width: 230px;
+                    text-align: center;*/
+}
+#chatBoxInput {
+    /*margin: 0px 4px 0px 2px;*/
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 14px;
+    width: calc(100% - 30px);
+    /*margin: auto;*/
+    padding-top: 2px;
+    border: none;
+}
+#chatBoxInput:focus {outline:0;}
+
+#chatBoxSubmit {
+    /*border-radius: 0px 10px 10px 0px;*/
+    background-color: greenyellow;
+    border: none;
+    color: blue;
+    font-style: oblique;
+}
+#chatBoxSubmit:focus {outline:0;}
+#chatBoxSubmit:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+#messengePool {
+    width: 100%;
+    height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.messMe {
+    display: block;
+    float: right;
+    background: #0099ff;
+    color: white;
+    margin-right: 5px;
+       float: right;
+}
+
+.messYou, .messMe {
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.messYou {
+    display: block;
+    float: left;
+    margin-left: 5px;
+    background: #ffffff;
+   float: left;
+}
+
+.messBlock {
+    display: block;
+    width: 100%;
+    height: 34px;
+ 
+}
+
+#chatBoxInput::-webkit-input-placeholder {
+    font-style: italic;
+}
+#chatBoxInput:-moz-placeholder {
+    font-style: italic;  
+}
+#chatBoxInput::-moz-placeholder {
+    font-style: italic;  
+}
+#chatBoxInput:-ms-input-placeholder {  
+    font-style: italic; 
+}
+
+#messengePool::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#messengePool::-webkit-scrollbar
+{
+    width: 12px;
+    /*background-color: #F5F5F5;*/
+}
+
+#messengePool::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #965a07;
+}
+
+#buttonList {
+    position: absolute;
+    left: 553px;
+    top: 550px;
+    width: 230px;
+    height: 50px;
+}
+
+#buttonList img {
+    float: right;
+    display: inline;
+    margin-left: 5px;
+}
+
+
+#clock {
+    font-size: 30px;
+    font-family: cursive;
+    position: absolute;
+    top: 72px;
+    left: 620px;
+}
+
+#clock2 {
+    font-size: 20px;
+    font-family: cursive;
+    position: absolute;
+    top: 238px;
+    left: 634px;
+}
+
+#roomID {
+    font-size: 30px;
+    font-family: cursive;
+    position: absolute;
+    top: 150px;
+    left: 685px;
+    font-style: italic;
+}
+
+#avatar1 {
+    top: 200px;
+    left: 575px;
+}
+
+#avatar2 {
+    top: 200px;
+    left: 700px;
+}
+
+.avatar {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px 25px;
+}
+
+#notice {
+    position: absolute;
+    top: 280px;
+    left: 560px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#turnPlayerName {
+    color: #75f44e;
+}
+
+
+
+#endGameDialog {
+    position: absolute;
+    top: calc(50vh - 100px);
+    left: calc(50vw - 150px); 
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+#endGame b {
+
+    font-size: 20px;
+
+}
+
+#endGameText {
+    font-family: cursive;
+    padding-top: 10px;
+}
+
+#endGame a {
+    font-family: cursive;
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: red;
+    color: white;
+}
+
+#endGame a:hover {
+    background-color: blue;
+    color: white;
+}
+
+#endGameAvatarPane {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#PlayContent {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+

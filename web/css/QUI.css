@@ -1,0 +1,137 @@
+#QUI_Msgbox_Dialog {
+    position: absolute;
+    top: calc(50vh - 100px);
+    left: calc(50vw - 150px); 
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+#QUI_Msgbox_Mess b {
+    font-size: 14px;
+}
+#QUI_Msgbox_Dialog a {
+    font-family: cursive;
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: blue;
+    color: white;
+    width: 50px;
+    display: inline-block;
+}
+#QUI_Msgbox_Dialog a:hover {
+    background-color: green;
+    color: white;
+}
+#endGameAvatarPane {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#myAvatarLB {
+    position: absolute;
+    top:130px;
+    right: 95px;
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#myAvatarLB:hover {
+    background: blue;
+    color:white;
+}
+
+.avatarBtn {
+    margin-top:5px;
+    width: 70px;
+    padding: 5px;
+    background: white;
+    border: none;
+    border-radius:  5px;
+}
+.avatarBtn:hover {
+    background: blue;
+    color:white;
+}
+
+
+#myAvatarLB {
+    position: absolute;
+    top:140px;
+    right: 95px;
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#myAvatarLB:hover {
+    background: blue;
+    color:white;
+}
+
+.avatarBtn {
+    margin-top:5px;
+    width: 70px;
+    padding: 5px;
+    background: white;
+    border: none;
+    border-radius:  5px;
+}
+.avatarBtn:hover {
+    background: blue;
+    color:white;
+}
+
+.QUI_btn {
+    font-family: cursive;
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: blue;
+    color: white;
+    width: 50px;
+    display: inline-block;
+}
+.QUI_btn:hover {
+    background-color: green;
+    color: white;
+}
+#QUI_Msgbox_Dialog_Content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#QUI_Msgbox_Form {
+    background: url('../images/QUI/form.png');
+    text-align: center;
+    width: 300px;
+    height: 340px;
+    margin: calc(50vh - 170px) auto;
+    position: relative;
+}
+
+#QUI_Msgbox_Form_Caption {
+    display: block;
+    font-family: cursive;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}            
+
+#info_avatar {
+    display: block; 
+    margin: 0px auto;
+    border-radius: 20px 20px 20px 20px; 
+    border: 2px solid black;
+    margin-top: 10px
+}
+
+#QUI_Msgbox {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
