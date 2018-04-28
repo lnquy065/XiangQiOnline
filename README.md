@@ -40,5 +40,5 @@ A Java web project. Have you ever played chess?. Now, you can play with everybod
 ## About
 + Release date: 12/2017
 + KQ team:
- - Lương Ngọc Quý
- - Nguyễn Đăng Khoa
+  - Lương Ngọc Quý
+  - Nguyễn Đăng Khoa
