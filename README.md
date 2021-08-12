@@ -1,5 +1,5 @@
 # XiangQi Online
-<p align="center"><img src="\readme\xiangqi.gif" width="500px"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/lnquy065/XiangQiOnline/master/readme/xiangqi.gif" width="500px"/></p>
 A Java web project. Have you ever played chess?. Now, you can play with everybody just have internet. Let's fight!
 
 ## Features
@@ -8,7 +8,7 @@ A Java web project. Have you ever played chess?. Now, you can play with everybod
 + Statistic board (Win/Lose/Draw).
 + Levels Rank.
 
-<p align="center"><img src="\readme\account.jpg" width="300px"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/lnquy065/XiangQiOnline/master/readme/account.jpg" width="300px"/></p>
 
 ### Lobby
 + Supports 6 rooms.
