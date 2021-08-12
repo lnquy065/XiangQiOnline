@@ -16,7 +16,7 @@ A Java web project. Have you ever played chess?. Now, you can play with everybod
 + Kick-out player of room.
 + Switch On/Off sounds.
 
-<p align="center"><img src="\readme\room.gif" width="500px"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/lnquy065/XiangQiOnline/master/readme/room.gif" width="500px"/></p>
 <p align="center"><img src="\web\images\roomList\empty.jpg" width="300px"/></p>
 
 ### Match
@@ -33,9 +33,9 @@ A Java web project. Have you ever played chess?. Now, you can play with everybod
 + Show ways for each pieces.
 + Animations.
 
-<p align="center"><img src="\readme\gamesetting.gif" width="500px"/></p>
-<p align="center"><img src="\readme\realtime.gif" width="500px"/></p>
-<p align="center"><img src="\readme\chat.gif" width="300px"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/lnquy065/XiangQiOnline/master/readme/gamesetting.gif" width="500px"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/lnquy065/XiangQiOnline/master/readme/realtime.gif" width="500px"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/lnquy065/XiangQiOnline/master/readme/chat.gif" width="300px"/></p>
 
 ## About
 + Release date: 12/2017
